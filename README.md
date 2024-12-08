@@ -18,24 +18,43 @@
 
 DroneDeliverySim3D/ 
 ├── dependencies/ # External dependencies for the project 
+
 │ ├── include/ # Header files for dependencies 
+
 │ └── lib/ # Library files for dependencies
+
 ├── docs/ # Documentation files 
+
 │ └── Doxyfile # Configuration for Doxygen 
+
 ├── service/ # Backend service code 
+
 │ ├── include/ # Header files for the service 
+
 │ ├── src/ # Source code for the backend 
+
 │ └── Makefile # Build system for the service 
+
 ├── web/ # Web-based frontend 
+
 │ ├── css/ # Stylesheets 
+
 │ ├── public/ # Static assets 
+
 │ ├── src/ # Source code for the web app 
+
 │ ├── index.html # Entry point for the web app 
+
 │ ├── package.json # Node.js dependencies 
+
 │ ├── tsconfig.json # TypeScript configuration 
+
 │ └── Dockerfile # Containerization for the web app 
+
 ├── .gitignore # Git ignore file 
+
 ├── Dockerfile # Containerization for the full project 
+
 └── Makefile # Build system for the entire project
 
 ---
